@@ -1,5 +1,15 @@
 # Volatility
 
+## Installation
+For vol2
+```
+git clone https://github.com/volatilityfoundation/volatility.git
+cd volatility
+sudo python2 setup.py install
+pip2 install pycryptodome
+pip2 install distorm3==3.3.4
+```
+
 ```
 python2 vol.py --info
 ```
