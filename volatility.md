@@ -14,6 +14,12 @@ pip2 install distorm3==3.3.4
 python2 vol.py --info
 ```
 
+## Information about the Memory Dump
+```
+python2 vol.py -f file.dmp imageinfo
+python2 vol.py -f file.dmp kdbgscan
+```
+
 ## Enumerate Processes
 ```
 python2 vol.py --profile=Win7SP1x64 -f MemoryDump_Lab1.raw pslist
